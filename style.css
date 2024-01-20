@@ -1,0 +1,423 @@
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+  height: 100dvh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+header {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.img1 {
+  margin-top: 80px;
+}
+
+h1,
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 50px 0 10px 0;
+  color: rgb(76, 84, 93);
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 50px 0 10px 0;
+  color: rgb(76, 84, 93);
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgb(159, 171, 178);
+  width: auto;
+  text-align: center;
+  padding: auto;
+}
+.cyanbut {
+  color: rgb(255, 255, 255);
+  display: block;
+  width: 400px;
+  height: 30px;
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  border: 5px solid transparent;
+  border-radius: 30px;
+  background-color: rgb(38, 186, 164);
+  box-shadow: 0 2px 3px 1px rgb(31, 152, 134);
+}
+.cyanbut:hover:focus {
+  background-color: rgb(48, 232, 204);
+}
+.bluebut {
+  color: rgb(255, 255, 255);
+  display: block;
+  width: 400px;
+  height: 30px;
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  border: 5px solid transparent;
+  border-radius: 30px;
+  background-color: rgb(97, 115, 255);
+  box-shadow: 0 2px 3px 1px rgb(73, 86, 188);
+}
+.bluebut:hover:focus {
+  background-color: rgb(157, 167, 250);
+}
+.comp {
+  transform: scale(0.5);
+}
+.p2 {
+  margin-bottom: 40px;
+}
+.svg {
+  position: relative;
+  top: 40px;
+}
+.flex-container {
+  text-align: center;
+}
+.logo-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.glogo {
+  margin-bottom: 50px;
+}
+h4 {
+  font-weight: 400;
+}
+.foot {
+  transform: scale(0.4);
+  position: relative;
+  top: 30px;
+}
+.slogo {
+  /*to target all img elements in footer tag*/
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.parent {
+  text-align: center;
+}
+.attribution {
+  background-color: hsl(204, 28%, 93%);
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+@media (min-width: 375px) and (max-width: 1024px) {
+      .img1 {
+        margin-top: 80px;
+      }
+      
+      h1,
+      h2 {
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 50px 0 10px 0;
+        color: rgb(76, 84, 93);
+      }
+      h3 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 50px 0 10px 0;
+        color: rgb(76, 84, 93);
+      }
+      
+      p {
+        font-size: 1rem;
+        font-weight: 400;
+        color: rgb(159, 171, 178);
+        width: auto;
+        text-align: center;
+        padding: auto;
+      }
+      .cyanbut {
+        color: rgb(255, 255, 255);
+        display: block;
+        width: 400px;
+        height: 30px;
+        font-size: 1rem;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 10px;
+        margin-bottom: 20px;
+        border: 5px solid transparent;
+        border-radius: 30px;
+        background-color: rgb(38, 186, 164);
+        box-shadow: 0 2px 3px 1px rgb(31, 152, 134);
+      }
+      .cyanbut:hover:focus {
+        background-color: rgb(48, 232, 204);
+      }
+      .bluebut {
+        color: rgb(255, 255, 255);
+        display: block;
+        width: 400px;
+        height: 30px;
+        font-size: 1rem;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 10px;
+        margin-bottom: 20px;
+        border: 5px solid transparent;
+        border-radius: 30px;
+        background-color: rgb(97, 115, 255);
+        box-shadow: 0 2px 3px 1px rgb(73, 86, 188);
+      }
+      .bluebut:hover:focus {
+        background-color: rgb(157, 167, 250);
+      }
+      .comp {
+        transform: scale(0.5);
+      }
+      .p2 {
+        margin-bottom: 40px;
+      }
+      .svg {
+        position: relative;
+        top: 40px;
+      }
+      .flex-container {
+        text-align: center;
+      }
+      .glogo {
+        margin-bottom: 50px;
+      }
+      h4 {
+        font-weight: 400;
+      }
+      .foot {
+        transform: scale(0.4);
+        position: relative;
+        top: 30px;
+      }
+      .slogo {
+        /*to target all img elements in footer tag*/
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+      }
+      .parent {
+        text-align: center;
+      }
+      .attribution {
+        background-color: hsl(204, 28%, 93%);
+        width: 100%;
+        text-align: center;
+        margin-top: 100px;
+      }body {
+        font-family: "Bai Jamjuree", sans-serif;
+        font-size: 18px;
+        height: 100svh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+      }
+      header {
+        position: relative;
+        text-align: center;
+        width: 100%;
+      }
+      .img1 {
+        margin-top: 80px;
+      }
+      
+      h1,
+      h2 {
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 50px 0 10px 0;
+        color: rgb(76, 84, 93);
+      }
+      h3 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 50px 0 10px 0;
+        color: rgb(76, 84, 93);
+      }
+      
+      p {
+        font-size: 1rem;
+        font-weight: 400;
+        color: rgb(159, 171, 178);
+        text-align: center;
+        /* padding: auto; */
+      }
+      .cyanbut {
+        color: rgb(255, 255, 255);
+        display: block;
+        width: 400px;
+        height: 30px;
+        font-size: 1rem;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 10px;
+        margin-bottom: 20px;
+        border: 5px solid transparent;
+        border-radius: 30px;
+        background-color: rgb(38, 186, 164);
+        box-shadow: 0 2px 3px 1px rgb(31, 152, 134);
+      }
+      .cyanbut:hover:focus {
+        background-color: rgb(48, 232, 204);
+      }
+      .bluebut {
+        color: rgb(255, 255, 255);
+        display: block;
+        width: 400px;
+        height: 30px;
+        font-size: 1rem;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 10px;
+        margin-bottom: 20px;
+        border: 5px solid transparent;
+        border-radius: 30px;
+        background-color: rgb(97, 115, 255);
+        box-shadow: 0 2px 3px 1px rgb(73, 86, 188);
+      }
+      .bluebut:hover:focus {
+        background-color: rgb(157, 167, 250);
+      }
+      .comp {
+        transform: scale(0.5);
+      }
+      .p2 {
+        margin-bottom: 40px;
+      }
+      .svg {
+        position: relative;
+        top: 40px;
+      }
+      .flex-container {
+        text-align: center;
+      }
+      .glogo {
+        margin-bottom: 50px;
+      }
+      h4 {
+        font-weight: 400;
+      }
+      .foot {
+        transform: scale(0.4);
+        position: relative;
+        top: 30px;
+      }
+      .slogo {
+        /*to target all img elements in footer tag*/
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+      }
+      .parent {
+        text-align: center;
+      }
+      .attribution {
+        background-color: hsl(204, 28%, 93%);
+        width: 100%;
+        text-align: center;
+        margin-top: 100px;
+      }
+  .img2 {
+    display: none;
+  }
+  .img3 {
+    width: 100%; /* to extend width of header regardless of screen size*/
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .img3 {
+    display: none;
+  }
+  .img2 {
+    width: 100%; /* to extend width of header regardless of screen size*/
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .case {
+    display: flex;
+    gap: 50px;
+  }
+  .bluebut,
+  .cyanbut {
+    width: 200px;
+  }
+  .comp {
+    transform: scale(0.9);
+  }
+  .container {
+    /* to not disrupt the flow of text and since they are block level elements float might be stressful*/
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 70px;
+  }
+  .foot {
+    transform: scale(0.4);
+    grid-row: span 2;
+    position: relative;
+    top: -5px;
+  }
+  .parent {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .clip {
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .slogo {
+    display: flex;
+    margin-left: 10px;
+  }
+  footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    grid-column-gap: 50px;
+  }
+}
